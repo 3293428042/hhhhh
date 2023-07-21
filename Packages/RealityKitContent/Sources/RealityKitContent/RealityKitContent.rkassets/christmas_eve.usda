@@ -1,0 +1,214 @@
+#usda 1.0
+(
+    defaultPrim = "christmas_eve"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "christmas_eve" (
+    prepend apiSchemas = ["MaterialBindingAPI"]
+)
+{
+    reorder nameChildren = ["christmas_tree", "present_square_red_1_1", "present_square_red_1_2", "materials", "present_round_white_1_1"]
+    rel material:binding = </christmas_eve/materials/color_material> (
+        bindMaterialAs = "strongerThanDescendants"
+    )
+    float3 xformOp:translate = (0, 0, -4.5)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def "christmas_tree" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        references = @christmas_tree.usdc@
+    )
+    {
+        rel material:binding = </christmas_eve/materials/color_material> (
+            bindMaterialAs = "strongerThanDescendants"
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, -1.1920929e-7, 0)
+
+        over "geometry"
+        {
+            float3 xformOp:scale = (0.005, 0.005, 0.005)
+            float3 xformOp:translate = (0, 0, 0)
+        }
+    }
+
+    def "present_square_red_1_1" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        customData = {
+            float3 rotationEulerHint = (0, 1.8575393, 0)
+        }
+        references = @present_square_red_1.usdc@
+    )
+    {
+        rel material:binding = </christmas_eve/materials/color_material> (
+            bindMaterialAs = "strongerThanDescendants"
+        )
+        quatf xformOp:orient = (0.59881973, 0, 0.8008838, 0)
+        float3 xformOp:scale = (0.9999998, 0.99999994, 0.9999999)
+        float3 xformOp:translate = (0.13419616, 0, 1.4351983)
+
+        over "geometry" (
+            customData = {
+                float3 rotationEulerHint = (0, 1.8575393, 0)
+            }
+        )
+        {
+        }
+    }
+
+    def "present_square_red_1_2" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        customData = {
+            float3 rotationEulerHint = (0, 1.8689057, 0)
+        }
+        references = @present_square_red_1.usdc@
+    )
+    {
+        rel material:binding = </christmas_eve/materials/color_material> (
+            bindMaterialAs = "strongerThanDescendants"
+        )
+        quatf xformOp:orient = (0.59425855, 0, 0.80427414, 0)
+        float3 xformOp:scale = (0.9999998, 0.99999994, 0.9999999)
+        float3 xformOp:translate = (-1.2298791, 0, 0.46251082)
+    }
+
+    def Xform "materials" (
+        active = true
+    )
+    {
+        def Material "color_material"
+        {
+            token outputs:mtlx:surface
+            token outputs:realitykit:vertex
+            token outputs:surface.connect = </christmas_eve/materials/color_material/Principled_BSDF.outputs:surface>
+            float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (0, 109.5)
+            float2 ui:nodegraph:realitykit:subgraphOutputs:size = (181.5, 99)
+
+            def Shader "Principled_BSDF"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                float inputs:clearcoat = 0
+                float inputs:clearcoatRoughness = 0.03
+                float3 inputs:diffuseColor.connect = </christmas_eve/materials/color_material/Image_Texture.outputs:rgb>
+                float3 inputs:emissiveColor.connect = </christmas_eve/materials/color_material/Image_Texture_001.outputs:rgb>
+                float inputs:ior = 1.45
+                float inputs:metallic.connect = </christmas_eve/materials/color_material/Image_Texture_002.outputs:r>
+                float inputs:opacity = 1
+                float inputs:roughness.connect = </christmas_eve/materials/color_material/Image_Texture_003.outputs:r>
+                float inputs:specular = 0.5
+                token outputs:surface
+            }
+
+            def Shader "Image_Texture"
+            {
+                uniform token info:id = "UsdUVTexture"
+                asset inputs:file = @./textures/christmas_tree_mat_baseColor.jpg@
+                token inputs:sourceColorSpace = "sRGB"
+                float2 inputs:st.connect = </christmas_eve/materials/color_material/UV_Map.outputs:result>
+                float3 outputs:rgb
+            }
+
+            def Shader "UV_Map"
+            {
+                uniform token info:id = "UsdPrimvarReader_float2"
+                token inputs:varname = "st0"
+                float2 outputs:result
+            }
+
+            def Shader "Image_Texture_002"
+            {
+                uniform token info:id = "UsdUVTexture"
+                asset inputs:file = @./textures/christmas_tree_mat_metallicRoughness_metal.jpg@
+                token inputs:sourceColorSpace = "sRGB"
+                float2 inputs:st.connect = </christmas_eve/materials/color_material/UV_Map.outputs:result>
+                float outputs:r
+            }
+
+            def Shader "Image_Texture_003"
+            {
+                uniform token info:id = "UsdUVTexture"
+                asset inputs:file = @./textures/christmas_tree_mat_metallicRoughness_rough.jpg@
+                token inputs:sourceColorSpace = "sRGB"
+                float2 inputs:st.connect = </christmas_eve/materials/color_material/UV_Map.outputs:result>
+                float outputs:r
+            }
+
+            def Shader "Image_Texture_001"
+            {
+                uniform token info:id = "UsdUVTexture"
+                asset inputs:file = @./textures/christmas_tree_mat_emissive.jpg@
+                token inputs:sourceColorSpace = "sRGB"
+                float2 inputs:st.connect = </christmas_eve/materials/color_material/UV_Map.outputs:result>
+                float3 outputs:rgb
+            }
+        }
+
+        def Material "siluet_material" (
+            active = true
+        )
+        {
+            prepend token outputs:mtlx:surface.connect = </christmas_eve/materials/siluet_material/MaterialXPreviewSurface.outputs:out>
+            token outputs:realitykit:vertex
+            float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (358.25, 99.5)
+            float2 ui:nodegraph:realitykit:subgraphOutputs:size = (181.5, 99)
+            int ui:nodegraph:realitykit:subgraphOutputs:stackingOrder = 2
+
+            def Shader "MaterialXPreviewSurface" (
+                active = true
+            )
+            {
+                uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                float inputs:clearcoatRoughness = 0
+                color3f inputs:diffuseColor = (0, 0, 0) (
+                    colorSpace = "Input - Texture - sRGB - sRGB"
+                )
+                color3f inputs:diffuseColor.connect = None
+                color3f inputs:emissiveColor = (0.12984204, 0.12984613, 0.12984395) (
+                    colorSpace = "Input - Texture - sRGB - sRGB"
+                )
+                color3f inputs:emissiveColor.connect = None
+                float inputs:ior = 1
+                float inputs:occlusion = 0.2
+                float inputs:opacity = 0.985
+                float inputs:roughness = 1
+                token outputs:out
+                float2 ui:nodegraph:node:pos = (103.75, 99.5)
+                float2 ui:nodegraph:node:size = (207.5, 199)
+                int ui:nodegraph:node:stackingOrder = 17
+            }
+        }
+    }
+
+    def "present_round_white_1_1" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        references = @present_round_white_1.usdc@
+    )
+    {
+        rel material:binding = </christmas_eve/materials/color_material> (
+            bindMaterialAs = "strongerThanDescendants"
+        )
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0.9456539, 0, 0.9090228)
+    }
+
+    def "present_round_white_1_2" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        references = @present_round_white_1.usdc@
+    )
+    {
+        rel material:binding = </christmas_eve/materials/color_material> (
+            bindMaterialAs = "strongerThanDescendants"
+        )
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-0.746647, 0, 1.258537)
+    }
+}
+

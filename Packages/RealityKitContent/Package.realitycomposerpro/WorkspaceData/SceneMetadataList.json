@@ -6,16 +6,16 @@
       0,
       0,
       0,
-      0.86602545,
-      -0.49999994,
+      0.86602544784545898,
+      -0.49999994039535522,
       0,
       0,
-      0.49999994,
-      0.86602545,
+      0.49999994039535522,
+      0.86602544784545898,
       0,
-      0.0035969093,
-      0.35542378,
-      0.62919164,
+      0.0035969093441963196,
+      0.35542377829551697,
+      0.62919163703918457,
       1
     ],
     "objectMetadataList" : [
@@ -29,23 +29,300 @@
       }
     ]
   },
+  "0A984071-0FA9-413D-9879-793047519C45" : {
+    "cameraTransform" : [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0.86602461338043213,
+      -0.50000137090682983,
+      0,
+      0,
+      0.50000137090682983,
+      0.86602461338043213,
+      0,
+      0.04423069953918457,
+      8.7305879592895508,
+      13.346830368041992,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "0A984071-0FA9-413D-9879-793047519C45",
+        "christmas_tree"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "008F71D4-B188-46C5-90BF-096460CAA47E" : {
+    "cameraTransform" : [
+      -0.045879140496253967,
+      -9.7315644431716919e-10,
+      0.99894696474075317,
+      0,
+      0.99563765525817871,
+      0.081330813467502594,
+      0.04572715237736702,
+      0,
+      -0.081245154142379761,
+      0.99668723344802856,
+      -0.0037313874345272779,
+      0,
+      0.0017453648615628481,
+      2.7398567199707031,
+      8.0175319453701377e-05,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "presi_round_1_white",
+        "presi_round_1_white_christmas_tree_mat_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "presi_round_1_white"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "present_round_white_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "scene",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "008F71D4-B188-46C5-90BF-096460CAA47E",
+        "scene",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "34CFDA70-2F96-429E-9D10-0D07CB9097BE" : {
+    "cameraTransform" : [
+      0.95229840278625488,
+      -0.00026476019411347806,
+      -0.30516844987869263,
+      0,
+      -0.3016851544380188,
+      0.1498449295759201,
+      -0.9415585994720459,
+      0,
+      0.045977227389812469,
+      0.98870950937271118,
+      0.14261721074581146,
+      0,
+      -1.3089306354522705,
+      8.7544145584106445,
+      0.17387628555297852,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "34CFDA70-2F96-429E-9D10-0D07CB9097BE",
+        "Root",
+        "christmas_tree"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "34CFDA70-2F96-429E-9D10-0D07CB9097BE",
+        "christmas_eve"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "34CFDA70-2F96-429E-9D10-0D07CB9097BE",
+        "christmas_eve",
+        "materials",
+        "siluet_material"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "50B3F5C3-CD68-4C27-A5C7-707D3F303522" : {
+    "cameraTransform" : [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0.86888092756271362,
+      -0.49502116441726685,
+      0,
+      0,
+      0.49502116441726685,
+      0.86888092756271362,
+      0,
+      -9.0130125585119458e-10,
+      2.4490258693695068,
+      3.9721415042877197,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "scene",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "present_square_red_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "presi_square_1_red",
+        "presi_square_1_red_christmas_tree_mat_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "presi_square_1_red"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+        "scene",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "65F6F990-A780-4474-B78B-572E0E4E273D" : {
     "cameraTransform" : [
       1,
       0,
-      -0,
-      0,
-      -0,
-      0.86602545,
-      -0.49999988,
       0,
       0,
-      0.49999988,
-      0.86602545,
       0,
-      1.1972517e-08,
-      2.6179132,
-      0.43191218,
+      0.86602544784545898,
+      -0.49999988079071045,
+      0,
+      0,
+      0.49999988079071045,
+      0.86602544784545898,
+      0,
+      1.1972517199865251e-08,
+      2.6179132461547852,
+      0.43191218376159668,
       1
     ],
     "objectMetadataList" : [
@@ -61,21 +338,21 @@
   },
   "1510F6C7-214D-4800-9C6C-F3964D5FC3E3" : {
     "cameraTransform" : [
-      0.99999994,
-      0,
-      -0,
-      0,
-      -0,
-      0.8660254,
-      -0.49999994,
+      0.99999994039535522,
       0,
       0,
-      0.49999994,
-      0.8660254,
       0,
       0,
-      0.27093536,
-      0.46927384,
+      0.86602538824081421,
+      -0.49999994039535522,
+      0,
+      0,
+      0.49999994039535522,
+      0.86602538824081421,
+      0,
+      0,
+      0.27093535661697388,
+      0.46927383542060852,
       1
     ],
     "objectMetadataList" : [
@@ -89,23 +366,113 @@
       }
     ]
   },
+  "2510E543-1ED7-4067-9700-CF3819F9394A" : {
+    "cameraTransform" : [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0.86602532863616943,
+      -0.50000011920928955,
+      0,
+      0,
+      0.50000011920928955,
+      0.86602532863616943,
+      0,
+      0.076025396585464478,
+      1.809422492980957,
+      2.4429235458374023,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "2510E543-1ED7-4067-9700-CF3819F9394A",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2510E543-1ED7-4067-9700-CF3819F9394A",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "christmas_tree"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2510E543-1ED7-4067-9700-CF3819F9394A",
+        "christmas_tree"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2510E543-1ED7-4067-9700-CF3819F9394A",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2510E543-1ED7-4067-9700-CF3819F9394A",
+        "scene",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "2510E543-1ED7-4067-9700-CF3819F9394A",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "christmas_tree",
+        "christmas_tree_christmas_tree_mat_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "66168B71-AB05-424E-8B6C-D33D6E61B08F" : {
     "cameraTransform" : [
       1,
       0,
-      -0,
       0,
-      -0,
-      0.8660254,
+      0,
+      0,
+      0.86602538824081421,
       -0.5,
       0,
       0,
       0.5,
-      0.8660254,
+      0.86602538824081421,
       0,
       0,
-      0.23875366,
-      0.4135335,
+      0.23875366151332855,
+      0.41353350877761841,
       1
     ],
     "objectMetadataList" : [
@@ -119,30 +486,177 @@
       }
     ]
   },
-  "AF09ED6F-1707-48FD-8720-65B998362C09" : {
+  "A4B28E77-A113-4747-BAFE-F4FDCFD9819A" : {
+    "cameraTransform" : [
+      0.99959242343902588,
+      -1.3492477135557124e-09,
+      0.028546599671244621,
+      0,
+      0.010493996553122997,
+      0.92998033761978149,
+      -0.36745947599411011,
+      0,
+      -0.026547776535153389,
+      0.36760929226875305,
+      0.92960125207901001,
+      0,
+      0.15949562191963196,
+      2.0245685577392578,
+      2.5942118167877197,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "A4B28E77-A113-4747-BAFE-F4FDCFD9819A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A4B28E77-A113-4747-BAFE-F4FDCFD9819A",
+        "Root",
+        "christmas_tree"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A4B28E77-A113-4747-BAFE-F4FDCFD9819A",
+        "Root",
+        "siluet_material"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "A470362E-BD91-4828-BD86-09D3DD749E05" : {
     "cameraTransform" : [
       1,
       0,
-      -0,
-      0,
-      -0,
-      0.7071069,
-      -0.7071067,
       0,
       0,
-      0.7071067,
-      0.7071069,
+      0,
+      0.86602532863616943,
+      -0.50000011920928955,
       0,
       0,
-      2.8836339,
-      -0.107588194,
+      0.50000011920928955,
+      0.86602532863616943,
+      0,
+      -0.011628867127001286,
+      11.179949760437012,
+      16.257627487182617,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "christmas_tree"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "A470362E-BD91-4828-BD86-09D3DD749E05",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "_9d45fc4807b4a2cab05de371e98ad38_fbx",
+        "RootNode",
+        "christmas_tree",
+        "christmas_tree_christmas_tree_mat_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AF09ED6F-1707-48FD-8720-65B998362C09" : {
+    "cameraTransform" : [
+      0.99177807569503784,
+      2.7594282414611371e-10,
+      -0.12797009944915771,
+      0,
+      -0.061326395720243454,
+      0.87769246101379395,
+      -0.47528418898582458,
+      0,
+      0.11231838911771774,
+      0.47922441363334656,
+      0.87047600746154785,
+      0,
+      0.4580426812171936,
+      1.9543129205703735,
+      0.55864334106445312,
       1
     ],
     "objectMetadataList" : [
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "Sphere_Left"
+        "Sphere_Right"
       ],
       {
         "isExpanded" : true,
@@ -151,7 +665,7 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "Sphere_Right"
+        "Sphere_Left"
       ],
       {
         "isExpanded" : true,
@@ -171,25 +685,26 @@
     "cameraTransform" : [
       1,
       0,
-      -0,
-      0,
-      -0,
-      0.8660253,
-      -0.5000001,
       0,
       0,
-      0.5000001,
-      0.8660253,
+      0,
+      0.86602532863616943,
+      -0.50000011920928955,
       0,
       0,
-      0.27093494,
-      0.4692731,
+      0.50000011920928955,
+      0.86602532863616943,
+      0,
+      0,
+      0.27093493938446045,
+      0.46927309036254883,
       1
     ],
     "objectMetadataList" : [
       [
         "CB766F92-EE55-4A63-9401-E7B8C009764D",
-        "Root"
+        "Root",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -197,8 +712,7 @@
       },
       [
         "CB766F92-EE55-4A63-9401-E7B8C009764D",
-        "Root",
-        "GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -210,19 +724,19 @@
     "cameraTransform" : [
       1,
       0,
-      -0,
-      0,
-      -0,
-      0.8660253,
-      -0.5000001,
       0,
       0,
-      0.5000001,
-      0.8660253,
+      0,
+      0.86602532863616943,
+      -0.50000011920928955,
       0,
       0,
-      0.27093494,
-      0.4692731,
+      0.50000011920928955,
+      0.86602532863616943,
+      0,
+      0,
+      0.27093493938446045,
+      0.46927309036254883,
       1
     ],
     "objectMetadataList" : [
@@ -233,25 +747,27 @@
     "cameraTransform" : [
       1,
       0,
-      -0,
-      0,
-      -0,
-      0.7071069,
-      -0.7071067,
       0,
       0,
-      0.7071067,
-      0.7071069,
+      0,
+      0.70710688829421997,
+      -0.70710670948028564,
       0,
       0,
-      0.26894823,
-      0.26934713,
+      0.70710670948028564,
+      0.70710688829421997,
+      0,
+      0,
+      0.26894822716712952,
+      0.26934713125228882,
       1
     ],
     "objectMetadataList" : [
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
-        "Root"
+        "Root",
+        "GridMaterial",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -259,9 +775,75 @@
       },
       [
         "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "E1E04584-5BA4-4DDA-9472-CE3484C477E7" : {
+    "cameraTransform" : [
+      0.96950113773345947,
+      -5.5097060247533136e-09,
+      0.24508677423000336,
+      0,
+      0.071726769208908081,
+      0.95621693134307861,
+      -0.28373289108276367,
+      0,
+      -0.23435613512992859,
+      0.29265862703323364,
+      0.92705345153808594,
+      0,
+      -1.064789891242981,
+      3.0566294193267822,
+      2.1724326610565186,
+      1
+    ],
+    "objectMetadataList" : [
+      [
+        "E1E04584-5BA4-4DDA-9472-CE3484C477E7",
         "Root",
-        "GridMaterial",
-        "GridMaterial"
+        "Christmas_Tree___Proto_Series",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "E1E04584-5BA4-4DDA-9472-CE3484C477E7",
+        "Root",
+        "Test_material"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "E1E04584-5BA4-4DDA-9472-CE3484C477E7",
+        "Root",
+        "Christmas_Tree___Proto_Series",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "E1E04584-5BA4-4DDA-9472-CE3484C477E7",
+        "Root",
+        "Christmas_Tree___Proto_Series"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "E1E04584-5BA4-4DDA-9472-CE3484C477E7",
+        "Root"
       ],
       {
         "isExpanded" : true,

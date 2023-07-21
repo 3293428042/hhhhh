@@ -7,22 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C17582F2A666EF600A12E8B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C17582E2A666EF600A12E8B /* ViewModel.swift */; };
+		3C1758322A66785000A12E8B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1758312A66785000A12E8B /* Level.swift */; };
+		3C1E8D642A6041A900AB8B58 /* we-wish-you-a-merry-christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E8D632A6041A900AB8B58 /* we-wish-you-a-merry-christmas.mp3 */; };
+		3C4E0F472A6443EA0006697A /* DragRotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E0F462A6443EA0006697A /* DragRotationModifier.swift */; };
+		3C6F60B12A67E1B500E6F07A /* PiecePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6F60B02A67E1B500E6F07A /* PiecePickerView.swift */; };
 		3C78E3F42A5EA4F500B8366A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3C78E3F32A5EA4F500B8366A /* RealityKitContent */; };
 		3C78E3F62A5EA4F500B8366A /* PuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78E3F52A5EA4F500B8366A /* PuzzleApp.swift */; };
-		3C78E3F82A5EA4F500B8366A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78E3F72A5EA4F500B8366A /* ContentView.swift */; };
-		3C78E3FA2A5EA4F500B8366A /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78E3F92A5EA4F500B8366A /* ImmersiveView.swift */; };
+		3C78E3F82A5EA4F500B8366A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78E3F72A5EA4F500B8366A /* HomeView.swift */; };
+		3C78E3FA2A5EA4F500B8366A /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78E3F92A5EA4F500B8366A /* LevelView.swift */; };
 		3C78E3FC2A5EA4F600B8366A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C78E3FB2A5EA4F600B8366A /* Assets.xcassets */; };
 		3C78E3FF2A5EA4F600B8366A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C78E3FE2A5EA4F600B8366A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C17582E2A666EF600A12E8B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3C1758312A66785000A12E8B /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		3C1E8D632A6041A900AB8B58 /* we-wish-you-a-merry-christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "we-wish-you-a-merry-christmas.mp3"; sourceTree = "<group>"; };
+		3C4E0F462A6443EA0006697A /* DragRotationModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragRotationModifier.swift; sourceTree = "<group>"; };
+		3C6F60B02A67E1B500E6F07A /* PiecePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecePickerView.swift; sourceTree = "<group>"; };
 		3C78E3EE2A5EA4F500B8366A /* Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C78E3F22A5EA4F500B8366A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		3C78E3F52A5EA4F500B8366A /* PuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleApp.swift; sourceTree = "<group>"; };
-		3C78E3F72A5EA4F500B8366A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3C78E3F92A5EA4F500B8366A /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		3C78E3F72A5EA4F500B8366A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3C78E3F92A5EA4F500B8366A /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		3C78E3FB2A5EA4F600B8366A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C78E3FE2A5EA4F600B8366A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C791EFE2A61450B00FB0A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +48,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1758302A666F0100A12E8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C17582E2A666EF600A12E8B /* ViewModel.swift */,
+				3C1758312A66785000A12E8B /* Level.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C1E8D602A60414700AB8B58 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3C1E8D632A6041A900AB8B58 /* we-wish-you-a-merry-christmas.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3C4E0F452A6443D70006697A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E0F462A6443EA0006697A /* DragRotationModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		3C6F60B22A68107E00E6F07A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C78E3F72A5EA4F500B8366A /* HomeView.swift */,
+				3C6F60B02A67E1B500E6F07A /* PiecePickerView.swift */,
+				3C78E3F92A5EA4F500B8366A /* LevelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3C78E3E52A5EA4F500B8366A = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +103,14 @@
 		3C78E3F02A5EA4F500B8366A /* Puzzle */ = {
 			isa = PBXGroup;
 			children = (
+				3C4E0F452A6443D70006697A /* Modifiers */,
+				3C791EFE2A61450B00FB0A64 /* Info.plist */,
+				3C1E8D602A60414700AB8B58 /* Sounds */,
 				3C78E3F52A5EA4F500B8366A /* PuzzleApp.swift */,
-				3C78E3F72A5EA4F500B8366A /* ContentView.swift */,
-				3C78E3F92A5EA4F500B8366A /* ImmersiveView.swift */,
 				3C78E3FB2A5EA4F600B8366A /* Assets.xcassets */,
 				3C78E3FD2A5EA4F600B8366A /* Preview Content */,
+				3C1758302A666F0100A12E8B /* Model */,
+				3C6F60B22A68107E00E6F07A /* Views */,
 			);
 			path = Puzzle;
 			sourceTree = "<group>";
@@ -145,6 +194,7 @@
 			files = (
 				3C78E3FF2A5EA4F600B8366A /* Preview Assets.xcassets in Resources */,
 				3C78E3FC2A5EA4F600B8366A /* Assets.xcassets in Resources */,
+				3C1E8D642A6041A900AB8B58 /* we-wish-you-a-merry-christmas.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,9 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C78E3F82A5EA4F500B8366A /* ContentView.swift in Sources */,
+				3C1758322A66785000A12E8B /* Level.swift in Sources */,
+				3C78E3F82A5EA4F500B8366A /* HomeView.swift in Sources */,
+				3C6F60B12A67E1B500E6F07A /* PiecePickerView.swift in Sources */,
 				3C78E3F62A5EA4F500B8366A /* PuzzleApp.swift in Sources */,
-				3C78E3FA2A5EA4F500B8366A /* ImmersiveView.swift in Sources */,
+				3C78E3FA2A5EA4F500B8366A /* LevelView.swift in Sources */,
+				3C17582F2A666EF600A12E8B /* ViewModel.swift in Sources */,
+				3C4E0F472A6443EA0006697A /* DragRotationModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +348,7 @@
 				DEVELOPMENT_TEAM = 86DKK4ZM39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Puzzle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +375,7 @@
 				DEVELOPMENT_TEAM = 86DKK4ZM39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Puzzle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

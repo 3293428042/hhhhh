@@ -1,13 +1,23 @@
 {
   "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/ChristmasEve.usda" : "A4B28E77-A113-4747-BAFE-F4FDCFD9819A",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "CB766F92-EE55-4A63-9401-E7B8C009764D",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "65F6F990-A780-4474-B78B-572E0E4E273D",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
     "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
     "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/_GridMaterial.usda" : "CC9FD5C7-161F-48CA-B2B9-61DD597CBD66",
     "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/_PlainMaterial.usda" : "1510F6C7-214D-4800-9C6C-F3964D5FC3E3",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Christmas Tree Model\/tree.usdc" : "A470362E-BD91-4828-BD86-09D3DD749E05",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/christmas_eve.usda" : "34CFDA70-2F96-429E-9D10-0D07CB9097BE",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Christmas_Tree_-_Proto_Series.usdz" : "7D11C097-2528-4587-B989-4C44BAD4E2DC",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/christmas_tree.usdc" : "0A984071-0FA9-413D-9879-793047519C45",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/ChristmasEve.usda" : "E1E04584-5BA4-4DDA-9472-CE3484C477E7",
     "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "66168B71-AB05-424E-8B6C-D33D6E61B08F",
     "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "AF09ED6F-1707-48FD-8720-65B998362C09",
-    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B"
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/present_round_white_1.usdc" : "008F71D4-B188-46C5-90BF-096460CAA47E",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/present_square_red_1.usdc" : "50B3F5C3-CD68-4C27-A5C7-707D3F303522",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/tree.usdc" : "2510E543-1ED7-4067-9700-CF3819F9394A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "202AD399-8EEC-4E30-9053-6E9AF8A78161"
   }
 }
